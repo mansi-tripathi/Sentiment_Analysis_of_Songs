@@ -1,15 +1,12 @@
 # Text_classification
-This project involves using sentiment analysis to predict if a song entered is a happy or sad. The dataset can be found https://github.com/rasbt/musicmood/tree/master/dataset.
+This project involves using sentiment analysis to predict if a song entered is a happy or sad. 
 
+The 'Data' folder consists of 3 files- stopwords_eng, train_lyrics_1000 and valid_lyrics_200.
+a. The training data is in 'train_lyrics_1000'. It consists of 1000 rows and 7 columns namely file, artist, title, lyrics, genre, mood and year. 
+b. The testing data is  with the name 'valid_lyrics_200'. It consists of 200 rows of data.
+c. I created a list of stopwords and added it to the text file called stopwords_eng. It is a corpus of stopwords used by the model to remove stopwords from the training data.
 
-#MusicMoodPrediction
-
-1.Main notebook (MusicMood_SongClassification) that has been used to implement the model (MLP)
-2.Secondary notebook (Implementing Multiple Classifiers) that contains implementation of other models such as SVM, RF, Bagging and Boosting.
-
-#The Data folder contains the following contents:
-
-1.Train_lyrics_1000 which is the training data
-2.Valid_lyrics_200 which is the validation data
-3.Stopwords_eng which is a corpus of stopwords used by the model to remove stopwords from the training data
-
+# MusicMoodPrediction
+For the purpose of predicting the mood of the song, the following python notebooks were implemented.
+a. Main notebook (MusicMood_SongClassification) that has been used to implement the model (MLP)
+b. Secondary notebook (Implementing Multiple Classifiers) that contains implementation of other models such as SVM, RF, Bagging and Boosting.
