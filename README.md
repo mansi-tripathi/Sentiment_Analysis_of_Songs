@@ -1,7 +1,7 @@
 # Text_classification
 This project involves using sentiment analysis to predict if a song entered is a happy or sad. 
 
-The 'Data' folder consists of 3 files- stopwords_eng, train_lyrics_1000 and valid_lyrics_200.
+The 'Data' folder consists of 3 files- stopwords_eng, train_lyrics_1000 and valid_lyrics_200.</br>
 a. The training data is in 'train_lyrics_1000'. It consists of 1000 rows and 7 columns namely file, artist, title, lyrics, genre, mood and year. 
 b. The testing data is  with the name 'valid_lyrics_200'. It consists of 200 rows of data.
 c. I created a list of stopwords and added it to the text file called stopwords_eng. It is a corpus of stopwords used by the model to remove stopwords from the training data.
