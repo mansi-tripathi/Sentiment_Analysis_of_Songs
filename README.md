@@ -9,4 +9,4 @@ c. I created a list of stopwords and added it to the text file called stopwords_
 # MusicMoodPrediction
 For the purpose of predicting the mood of the song, the following python notebooks were implemented.</br>
 a. Main notebook (MusicMood_SongClassification) that has been used to implement the model (MLP).</br>
-b. Secondary notebook (Implementing Multiple Classifiers) that contains implementation of other models such as SVM, RF, Bagging and Boosting.</br>
+b. Secondary notebook (Implementing Multiple Classifiers) that contains implementation of other models such as SVM and RF.</br>
